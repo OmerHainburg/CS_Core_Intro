@@ -1,0 +1,72 @@
+/* resize retina image */
+img {
+	width: 100%;
+}
+
+/* remove the close button from the titlebar */
+.ui-dialog-titlebar-close {
+    display: none;
+}
+
+/* remove extra left and right padding */
+.ui-accordion .ui-accordion-content {
+    padding: 1em;
+}
+
+/** remove hand cursor from accordeon title bar */
+.ui-accordion .ui-accordion-header {
+    cursor: auto;
+}
+
+.ui-widget-content a {
+    color:#3baae3;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+h4 {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+p {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+body {
+    padding: 15px;
+}
+
+#presentation {
+    width: auto;
+    max-width: 100%;
+    height: auto;
+
+    /* position: relative;
+    width: 100%;
+    padding-bottom: 100%;
+    vertical-align: middle;*/
+
+    margin: 0;
+    overflow: hidden;
+}
+
+#presentation svg {
+    width: auto;
+    max-width: 100%;
+    height: auto;
+
+    /* position: absolute;
+    top: 0;
+    left: 0;*/
+}
+
+path {
+    transition: .6s fill;
+    fill: rgba(0, 0, 0, 0);
+}
+
+path:hover {
+    fill: rgba(5, 90, 255, 0.32);
+}
